@@ -5,7 +5,7 @@ This repository is a learning environment and a portfolio project.
 
 
 This project is based on the idea and scope of my **qa_arcade** project (Playwright + Pytest).
-The goal is similar: clean structure, readable tests with DDD and BDD approach.
+The goal is similar: clean structure, readable tests with DDT and BDT approach.
 
 The main difference: this version is implemented in **Robot Framework + Selenium** instead of Playwright + Pytest.
 
