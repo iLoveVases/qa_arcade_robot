@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation   Data-driven tests for Checkboxes page
 Resource    ../../resources/common.resource
 Resource    ../../resources/web/App.resource
 

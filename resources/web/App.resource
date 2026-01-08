@@ -2,7 +2,6 @@
 Resource    ../common.resource
 Resource    pages/AddRemovePage.resource
 Resource    pages/CheckboxesPage.resource
-Resource    pages/BasicAuthPage.resource
 
 # App.resource is an extra layer for "flows" used by tests. Tests call keywords from this file to stay short
 # and readable. This file should NOT contain locators. It only combines steps.
@@ -15,10 +14,6 @@ User opens Add Remove Elements page
 
 User opens Checkboxes page
     Checkboxes Page Open
-
-User opens Basic Auth page with credentials
-    [Arguments]    ${username}    ${password}
-    Basic Auth Page Open With Credentials    ${username}    ${password}
 
 User adds N elements
     [Arguments]    ${n}
