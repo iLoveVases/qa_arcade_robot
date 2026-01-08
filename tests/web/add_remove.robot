@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation    Tests for Add/Remove Elements page
 Resource    ../../resources/common.resource
 Resource    ../../resources/web/App.resource
 
